@@ -1,0 +1,5 @@
+{
+  "name": "여행바이브 (TripVibe)",
+  "description": "가고 싶은 곳을 입력하고, AI가 만들어주는 나만의 여행바이브를 찾아보세요. 맛집, 명소, 지도, 추천 코스까지 한번에!",
+  "requestFramePermissions": []
+}
