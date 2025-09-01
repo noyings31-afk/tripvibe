@@ -1,11 +1,11 @@
 import React, { useState, useCallback, useMemo } from 'react';
-import { generateTravelGuide, generateItinerary, getRecentBlogPosts } from './services/geminiService.ts';
-import { TravelGuide, Itinerary, BlogPost, WebSource } from './types.ts';
-import ResultCard from './components/ResultCard.tsx';
-import BlogCard from './components/BlogCard.tsx';
-import Loader from './components/Loader.tsx';
-import Map from './components/Map.tsx';
-import ItineraryCard from './components/ItineraryCard.tsx';
+import { generateTravelGuide, generateItinerary, getRecentBlogPosts } from './services/geminiService';
+import { TravelGuide, Itinerary, BlogPost, WebSource } from './types';
+import ResultCard from './components/ResultCard';
+import BlogCard from './components/BlogCard';
+import Loader from './components/Loader';
+import Map from './components/Map';
+import ItineraryCard from './components/ItineraryCard';
 
 const App: React.FC = () => {
   const [location, setLocation] = useState('');
