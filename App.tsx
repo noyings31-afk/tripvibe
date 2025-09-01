@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import { generateTravelGuide, generateItinerary, getRecentBlogPosts } from './services/geminiService.ts';
-import type { TravelGuide, Itinerary, BlogPost, WebSource } from './types.ts';
+import { TravelGuide, Itinerary, BlogPost, WebSource } from './types.ts';
 import ResultCard from './components/ResultCard.tsx';
 import BlogCard from './components/BlogCard.tsx';
 import Loader from './components/Loader.tsx';
